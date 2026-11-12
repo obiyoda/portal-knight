@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #101b2c; color: #edf5f3; font-family: system-ui, sans-serif; }
+main { width: min(100% - 32px, 1000px); margin: 32px auto; }
+header span { color: #8dddc9; font-size: 12px; letter-spacing: 3px; }
+h1 { font-size: clamp(30px, 5vw, 48px); letter-spacing: -2px; margin: 8px 0; }
+header p { color: #adbdce; margin: 0 0 24px; }
+#game { aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid #42566d; border-radius: 12px; background: #172942; }
+#game:focus-visible { outline: 2px solid #8dddc9; outline-offset: 4px; }
+canvas { display: block; }
+section { color: #adbdce; line-height: 1.6; }
+b { color: #edf5f3; margin-left: 16px; margin-right: 5px; }
+b:first-child { margin-left: 0; }
+small { color: #8d9caf; }
+button { margin-top: 16px; padding: 10px 24px; border: 0; border-radius: 6px; background: #8dddc9; color: #101b2c; font: 700 16px system-ui, sans-serif; cursor: pointer; }
+button:hover { background: #b7f4e4; }
+button:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+#status { color: #e4bc79; }
+.share { width: min(100% - 32px, 1000px); margin: 0 auto 32px; color: #adbdce; }
+.share a { color: #8dddc9; }
